@@ -14,7 +14,7 @@ metadata:
       Express collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-03-27T04:27:28Z"
+    image.opencontainers.org/created: "2020-03-27T05:15:01Z"
     k8s.io/description: Node.js 10 available as container is a base platform for building
       and running various Node.js 10 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -59,6 +59,7 @@ metadata:
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
   name: appsody-sample-nodejs-express
+  namespace: nodesjs-dashboard
 spec:
   applicationImage: dev.local/appsody-sample-nodejs-express
   createKnativeService: false
