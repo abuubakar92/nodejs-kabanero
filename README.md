@@ -1,2 +1,2 @@
-# ibm-lab-demo
+# ibm-lab-demo kabanero
 
